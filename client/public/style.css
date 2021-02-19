@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.root {
+  flex-grow: 1;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.btn-style {
+  margin: 5px;
+  background-color: #073f39;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
+
+.nav-title {
+  font-size: 2.5rem;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.heading-style {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.paperStyle {
+  margin: 10px;
+  padding: 10px;
+}
+
+.tabPanelItem {
+  padding: 10px 15px;
+}
+
+/* table design starts here*/
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 5px;
+
+  text-align: center;
+  background-color: #00887a;
+  color: white;
+}
+
+.tableCellStyle {
+  min-width: 80px;
+}
+/* table design ends here*/
+
+.select-style {
+  margin-bottom: 10px;
+}
+
+.checkbox-div {
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+
+.difference-button {
+  margin: 10px 0;
+}
+
+/* navbar design starts from here */
+.nav-bar {
+  background: #d3e3fc;
+  padding: 10px;
+}
+
+.logo {
+  width: auto;
+  height: 60px;
+  line-height: 60px;
+  margin: 10px;
+}
+.nav-element ul {
+  text-align: right;
+}
+.nav-element ul li {
+  display: inline-block;
+  margin: 0 25px;
+}
+.nav-element ul li a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+  line-height: 60px;
+  transition: 0.4s;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-element ul li a:hover {
+  border-radius: 0;
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+/* navbar design ends here */
+
+/*footer design starts here*/
+.footer {
+  background: #77a6f7;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.typographyStyle {
+  padding: 10px;
+}
+/*footer design ends here*/
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (max-width: 599px) {
+  .logo-div {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .nav-element ul {
+    text-align: center;
+    padding-left: 0;
+  }
+  .nav-element ul li {
+    display: block;
+    margin: 0;
+  }
+  .nav-element ul li a {
+    display: block;
+  }
+
+  .nav-element ul li a:hover {
+    transform: none;
+  }
+}

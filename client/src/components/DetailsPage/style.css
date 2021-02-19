@@ -1,0 +1,12 @@
+.table-style{
+   margin: auto;
+   width: 50%
+}
+
+.list-title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.list-desc{
+    font-weight: 500;
+}
